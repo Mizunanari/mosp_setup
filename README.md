@@ -30,7 +30,7 @@ git clone https://github.com/Mizunanari/mosp_setup.git
 
 ### docer centos7 の立ち上げ
 
-ルート権限が必要な場合は sudo docker とする
+dockerのコマンドにルート権限が必要な場合は sudo を前につける
 
 ```bash
 docker run --privileged -it -d --name mosp -p 80:80 centos:centos7 /sbin/init
@@ -75,6 +75,8 @@ cd /mosp_script
 ```
 
 #### 設定ファイルとスクリプトをdockerに移動
+
+dockerのコマンドにルート権限が必要な場合は sudo を前につける
 
 ```bash
 docker cp ./pg_hba.conf mosp:/home/usermosp/
