@@ -30,6 +30,8 @@ git clone https://github.com/Mizunanari/mosp_setup.git
 
 ### docer centos7 の立ち上げ
 
+ルート権限が必要な場合は sudo docker とする
+
 ```bash
 docker run --privileged -it -d --name mosp -p 80:80 centos:centos7 /sbin/init
 ```
