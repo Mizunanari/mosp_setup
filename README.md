@@ -28,8 +28,6 @@ git clone https://github.com/Mizunanari/mosp_setup.git
 
 ダウンロードし、同じディレクトリに格納
 
-## スクリプトの利用方法
-
 ### docer centos7 の立ち上げ
 
 ```bash
